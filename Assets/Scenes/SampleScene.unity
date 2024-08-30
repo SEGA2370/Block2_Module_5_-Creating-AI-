@@ -316,8 +316,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.28868368, y: 0.18714559, z: -0.057646442, w: -0.9371847}
-  m_LocalPosition: {x: 6.633025, y: 6.580683, z: -14.028709}
+  m_LocalRotation: {x: -0.26255062, y: 0.26133564, z: -0.07410198, w: -0.925894}
+  m_LocalPosition: {x: 13.185485, y: 8.374416, z: -19.538984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -813,8 +813,8 @@ GameObject:
   - component: {fileID: 1037194375}
   - component: {fileID: 1037194374}
   - component: {fileID: 1037194373}
-  - component: {fileID: 1037194372}
   - component: {fileID: 1037194377}
+  - component: {fileID: 1037194378}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -822,23 +822,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1037194372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1037194371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a27c009eeb0d5ec4d969e2d471d3fc80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 434393269}
-  - {fileID: 666283915}
-  - {fileID: 980613032}
-  - {fileID: 597500552}
 --- !u!65 &1037194373
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -952,6 +935,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1037194378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037194371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3134c3a1f8546b643ac5c18c134a2b20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 434393269}
+  - {fileID: 666283915}
+  - {fileID: 980613032}
+  - {fileID: 597500552}
+  enemy: {fileID: 3162144412042548705}
+  fovRange: 15
+  attackRange: 2
+  followDistance: 2
 --- !u!1 &1051321723
 GameObject:
   m_ObjectHideFlags: 0
