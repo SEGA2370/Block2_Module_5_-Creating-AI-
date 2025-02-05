@@ -6,7 +6,7 @@ using BehaviorTree;
 
 public class CheckEnemyInAttackRange : Node
 {
-    private static int _enemyLayermask = 1 << 6;
+   // private static int _enemyLayermask = 1 << 6;
 
     private Transform _transform;
 
