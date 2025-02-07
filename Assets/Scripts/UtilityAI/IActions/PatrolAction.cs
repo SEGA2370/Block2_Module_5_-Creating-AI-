@@ -22,7 +22,7 @@ public class PatrolAction : IAction
 
     public void Execute()
     {
-        Debug.Log("Executing PatrolAction");
+        //Debug.Log("Executing PatrolAction");
 
         if (_waiting)
         {

@@ -26,7 +26,7 @@ public class FollowAction : IAction
             Vector3 targetPosition = new Vector3(_enemy.position.x, _transform.position.y, _enemy.position.z);
             _transform.position = Vector3.MoveTowards(_transform.position, targetPosition, GuardUAI.speed * Time.deltaTime);
             _transform.LookAt(new Vector3(_enemy.position.x, _transform.position.y, _enemy.position.z));
-            Debug.Log("Following");
+            //Debug.Log("Following");
         }
     }
 }

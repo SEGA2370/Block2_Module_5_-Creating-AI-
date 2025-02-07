@@ -35,12 +35,11 @@ public class GuardUAI : MonoBehaviour
 
     private void Update()
     {
+        // Update scores for actions
         _followAction.Score = _enemyInFOV.GetScore();
         _attackAction.Score = _enemyInRange.GetScore();
 
-        Debug.Log($"Follow Score: {_followAction.Score}, Attack Score: {_attackAction.Score}");
-
-        // Decide and act based on the updated scores
+        // Call DecideAndAct only when necessary
         _utilityAI.DecideAndAct();
     }
 }
