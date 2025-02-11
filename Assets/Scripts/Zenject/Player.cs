@@ -27,8 +27,8 @@ public class Player : MonoBehaviour
             return;
         }
 
-        Debug.Log($"Player Health: {_gameConfig.PlayerHealth}");
-        Debug.Log($"Player Speed: {_gameConfig.PlayerSpeed}");
+       // Debug.Log($"Player Health: {_gameConfig.PlayerHealth}");
+       // Debug.Log($"Player Speed: {_gameConfig.PlayerSpeed}");
     }
 
     public int GetHealth()

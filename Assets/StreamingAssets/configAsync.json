@@ -1,0 +1,5 @@
+{ 
+	"playerSpeed": 5.5,
+    "enemyCount": 10,
+    "gameMode": "Hard" 
+}
