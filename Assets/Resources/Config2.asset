@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Config2
   m_EditorClassIdentifier: 
   configName: Config2
-  maxPlayers: 4
-  gameSpeed: 1
+  playerHealth: 320
+  playerSpeed: 4

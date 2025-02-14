@@ -4,6 +4,6 @@ using UnityEngine;
 public class ExtendUnity : ScriptableObject
 {
     public string configName;
-    public int maxPlayers;
-    public float gameSpeed;
+    public float playerHealth;
+    public float playerSpeed;
 }

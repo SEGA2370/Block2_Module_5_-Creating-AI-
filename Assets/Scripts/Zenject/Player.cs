@@ -27,8 +27,8 @@ public class Player : MonoBehaviour
             return;
         }
 
-       // Debug.Log($"Player Health: {_gameConfig.PlayerHealth}");
-       // Debug.Log($"Player Speed: {_gameConfig.PlayerSpeed}");
+        // Debug.Log($"Player Health: {_gameConfig.PlayerHealth}");
+        // Debug.Log($"Player Speed: {_gameConfig.PlayerSpeed}");
     }
 
     public int GetHealth()
@@ -42,9 +42,9 @@ public class Player : MonoBehaviour
 
         _currentHealth -= damage;
         Debug.Log($"Player took {damage} damage. Current health: {_currentHealth}");
-        
+
         if (_currentHealth <= 0)
-        { 
+        {
             PlayDeathAnimation();
         }
         else
@@ -69,4 +69,3 @@ public class Player : MonoBehaviour
         Debug.Log("Death animation triggered.");
     }
 }
-

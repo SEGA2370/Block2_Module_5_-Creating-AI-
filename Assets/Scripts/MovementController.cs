@@ -6,10 +6,10 @@ using UnityEngine.InputSystem;
 
 public class MovementController : MonoBehaviour
 {
-    [Header ("Walk")]
+    [Header("Walk")]
     Vector2 playerInput;
     float moveSpeed;
-    [SerializeField]  float walkSpeed;
+    [SerializeField] float walkSpeed;
     [SerializeField] private float rotationDuration = 0.3f;
     GameObject playerParent;
     Animator animator;
@@ -37,7 +37,7 @@ public class MovementController : MonoBehaviour
 
     private void Update()
     {
-        if(isDead) return;
+        if (isDead) return;
 
         MovePlayer();
         RotatePlayer();

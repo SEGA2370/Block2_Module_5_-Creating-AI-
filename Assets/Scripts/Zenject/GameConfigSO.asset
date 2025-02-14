@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: GameConfigSO
   m_EditorClassIdentifier: 
   playerHealth: 80
-  playerSpeed: 7
+  playerSpeed: 2

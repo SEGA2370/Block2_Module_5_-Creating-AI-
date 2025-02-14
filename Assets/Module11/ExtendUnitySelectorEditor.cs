@@ -35,10 +35,10 @@ public class ExtendUnitySelectorEditor : Editor
         if (selector.selectedConfig != null)
         {
             EditorGUILayout.Space();
-            EditorGUILayout.LabelField("Config Details",  EditorStyles.boldLabel);
+            EditorGUILayout.LabelField("Config Details", EditorStyles.boldLabel);
             EditorGUILayout.LabelField("Name:", selector.selectedConfig.configName);
-            EditorGUILayout.IntField("Max Players:", selector.selectedConfig.maxPlayers);
-            EditorGUILayout.FloatField("Game Speed:", selector.selectedConfig.gameSpeed);
+            EditorGUILayout.FloatField("Player Health:", selector.selectedConfig.playerHealth);
+            EditorGUILayout.FloatField("Player Speed:", selector.selectedConfig.playerSpeed);
         }
 
         if (GUILayout.Button("Apply Config"))

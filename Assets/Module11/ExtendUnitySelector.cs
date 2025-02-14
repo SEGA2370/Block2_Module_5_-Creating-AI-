@@ -1,4 +1,3 @@
-using System.Linq;
 using UnityEngine;
 
 public class ExtendUnitySelector : MonoBehaviour
@@ -17,7 +16,7 @@ public class ExtendUnitySelector : MonoBehaviour
     {
         if (selectedConfig != null)
         {
-            Debug.Log($"Applied Config: {selectedConfig.configName}");
+            Debug.Log($"Applied Config: {selectedConfig.configName} | Health: {selectedConfig.playerHealth} | Speed: {selectedConfig.playerSpeed}");
         }
         else
         {
