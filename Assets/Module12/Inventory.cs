@@ -1,9 +1,10 @@
 using System.Collections.Generic;
+using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    public List<string> items = new List<string>();
+    public List<Item> items = new List<Item>(); // Now stores Item objects, not strings
     private InventoryUI inventoryUI;
 
     private void Start()
@@ -11,10 +12,10 @@ public class Inventory : MonoBehaviour
         inventoryUI = FindObjectOfType<InventoryUI>(true);
     }
 
-    public void AddItem(string itemName)
+    public void AddItem(Item newItem)
     {
-        items.Add(itemName);
-        Debug.Log($"Item Picked Up: {itemName}");
+        items.Add(newItem);
+        Debug.Log($"Picked Up: {newItem.itemName}");
 
         if (inventoryUI != null && inventoryUI.gameObject.activeInHierarchy)
         {

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PickupItem : MonoBehaviour
 {
-    public string itemName;
+    public Item itemData; // Assign a ScriptableObject item in the Inspector
 
     private void OnTriggerEnter(Collider other)
     {
@@ -11,11 +11,7 @@ public class PickupItem : MonoBehaviour
             PlayerInventory playerInventory = other.GetComponent<PlayerInventory>();
             if (playerInventory != null)
             {
-                playerInventory.PickupItem(itemName);
-            }
-            else
-            {
-                Debug.LogError("PlayerInventory Not Found");
+                playerInventory.PickupItem(itemData); // Add the ScriptableObject to inventory
             }
             Destroy(gameObject);
         }

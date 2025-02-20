@@ -9,8 +9,8 @@ public class PlayerInventory : MonoBehaviour
         inventory = FindObjectOfType<Inventory>();
     }
 
-    public void PickupItem(string itemName)
+    public void PickupItem(Item item)
     {
-        inventory.AddItem(itemName);
+        inventory.AddItem(item);
     }
 }

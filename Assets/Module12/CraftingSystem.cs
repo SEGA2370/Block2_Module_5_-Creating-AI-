@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 public class CraftingSystem : MonoBehaviour
@@ -11,14 +12,20 @@ public class CraftingSystem : MonoBehaviour
 
     public void CraftAxe()
     {
-        if (inventory.items.Contains("Wood") && inventory.items.Contains("Iron"))
+        // Find required items using their class type
+        Item wood = inventory.items.FirstOrDefault(item => item is Wood);
+        Item iron = inventory.items.FirstOrDefault(item => item is Iron);
+
+        if (wood != null && iron != null)
         {
-            inventory.items.Remove("Wood");
-            inventory.items.Remove("Iron");
-            inventory.items.Add("Axe");
+            inventory.items.Remove(wood);
+            inventory.items.Remove(iron);
+
+            // Correct way to create a new ScriptableObject item
+            Axe newAxe = ScriptableObject.CreateInstance<Axe>();
+            inventory.AddItem(newAxe);
 
             Debug.Log("Axe is Crafted!");
-            FindObjectOfType<InventoryUI>().UpdateUI(); // Обновляем UI
         }
         else
         {

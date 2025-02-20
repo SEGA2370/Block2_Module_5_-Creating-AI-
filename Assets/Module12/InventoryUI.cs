@@ -1,9 +1,12 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class InventoryUI : MonoBehaviour
 {
-    public TextMeshProUGUI inventoryText;
+    public Transform inventoryGrid;
+    public GameObject itemSlotPrefab; // Assign in Inspector (Prefab for grid item)
+
     private Inventory inventory;
 
     private void Start()
@@ -14,10 +17,21 @@ public class InventoryUI : MonoBehaviour
 
     public void UpdateUI()
     {
-        inventoryText.text = "Inventory:\n";
-        foreach (var item in inventory.items)
+        // Clear previous slots
+        foreach (Transform child in inventoryGrid)
         {
-            inventoryText.text += "- " + item + "\n";
+            Destroy(child.gameObject);
+        }
+
+        // Add new slots with images
+        foreach (Item item in inventory.items)
+        {
+            GameObject slot = Instantiate(itemSlotPrefab, inventoryGrid);
+            Image itemImage = slot.transform.GetChild(0).GetComponent<Image>(); // Get image component
+            if (item.itemIcon != null)
+            {
+                itemImage.sprite = item.itemIcon; // Assign the correct sprite
+            }
         }
     }
 }
