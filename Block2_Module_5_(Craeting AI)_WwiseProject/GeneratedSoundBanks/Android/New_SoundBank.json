@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Android",
+  "BasePlatform": "Android",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4072029455",
+    "Type": "User",
+    "GUID": "{A4FD61B4-21AA-4485-A2AF-C1B35943F546}",
+    "Language": "SFX",
+    "Hash": "{518CB2CF-5FBC-E1DE-53DD-689175BB8E8E}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\New_SoundBank",
+    "ShortName": "New_SoundBank",
+    "Path": "New_SoundBank.bnk",
+    "Media": [
+     {
+      "Id": "209569190",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "512815__mostyxs__good-jetpack-sound-loop.wav",
+      "CachePath": "E1/{E13984B8-A7F5-DA47-1F8A-0309C5440693}.wem"
+     },
+     {
+      "Id": "973312293",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Potato.wav",
+      "CachePath": "9D/{9D17DA3C-31F9-0E9C-871D-D96B8C417CC6}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "13776098",
+      "Name": "Explosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\Explosion",
+      "GUID": "{67E86E4A-8CAB-4E70-9233-63745AEA9CF3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8010833",
+      "DurationMax": "0.8010833",
+      "MediaRefs": [
+       {
+        "Id": "209569190"
+       }
+      ]
+     },
+     {
+      "Id": "3851355180",
+      "Name": "Potato",
+      "ObjectPath": "\\Events\\Default Work Unit\\Potato",
+      "GUID": "{F4F99ACB-40A0-4B6E-ACA1-3446555DC28C}",
+      "DurationType": "OneShot",
+      "DurationMin": "149.42789",
+      "DurationMax": "149.42789",
+      "MediaRefs": [
+       {
+        "Id": "973312293"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{EB7E840C-1B6D-67AD-6859-79C3D8C8C1A9}"
+ }
+}

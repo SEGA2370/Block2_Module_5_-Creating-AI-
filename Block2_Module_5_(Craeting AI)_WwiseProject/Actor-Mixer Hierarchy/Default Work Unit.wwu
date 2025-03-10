@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{903BB463-3970-40C0-9BC5-B7046BA5AF67}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{903BB463-3970-40C0-9BC5-B7046BA5AF67}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="512815__mostyxs__good-jetpack-sound-loop" ID="{99BA61C9-7865-45B3-B047-68FB7EF1921A}" ShortID="547511673">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F34F5F61-0BF6-4A22-8CA2-A7284B9EB99F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D526BDB-944A-494F-A4BF-C234ACC26DDC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="512815__mostyxs__good-jetpack-sound-loop" ID="{CBE57E01-DD26-44B4-9E20-F63B8A773C47}">
+							<Language>SFX</Language>
+							<AudioFile>512815__mostyxs__good-jetpack-sound-loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="209569190"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="512815__mostyxs__good-jetpack-sound-loop" ID="{CBE57E01-DD26-44B4-9E20-F63B8A773C47}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Potato" ID="{85CBCD9E-E3A5-42B7-BA21-FBB53044F477}" ShortID="416351816">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F34F5F61-0BF6-4A22-8CA2-A7284B9EB99F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D526BDB-944A-494F-A4BF-C234ACC26DDC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Potato" ID="{BE6ACC69-8101-477D-9648-E949858BE02D}">
+							<Language>SFX</Language>
+							<AudioFile>Potato.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="973312293"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Potato" ID="{BE6ACC69-8101-477D-9648-E949858BE02D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

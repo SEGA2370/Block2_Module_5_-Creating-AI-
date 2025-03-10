@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	13776098	Explosion			\Default Work Unit\Explosion	
+	3851355180	Potato			\Default Work Unit\Potato	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	209569190	512815__mostyxs__good-jetpack-sound-loop	D:\Unity\Block2_Module_5_(Craeting AI)\Block2_Module_5_(Craeting AI)_WwiseProject\.cache\E1\{E13984B8-A7F5-DA47-1F8A-0309C5440693}.wem		\Actor-Mixer Hierarchy\Default Work Unit\512815__mostyxs__good-jetpack-sound-loop		38548
+	973312293	Potato	D:\Unity\Block2_Module_5_(Craeting AI)\Block2_Module_5_(Craeting AI)_WwiseProject\.cache\9D\{9D17DA3C-31F9-0E9C-871D-D96B8C417CC6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Potato		26359224
+

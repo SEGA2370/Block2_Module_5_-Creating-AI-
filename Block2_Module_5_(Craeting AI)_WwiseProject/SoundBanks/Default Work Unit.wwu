@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FA3A1D33-91A0-4C35-8D2C-08A60737D35D}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{FA3A1D33-91A0-4C35-8D2C-08A60737D35D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="New_SoundBank" ID="{A4FD61B4-21AA-4485-A2AF-C1B35943F546}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Potato" ID="{F4F99ACB-40A0-4B6E-ACA1-3446555DC28C}" WorkUnitID="{2B6629CC-718A-4AA3-A5F1-5C07258D5EF5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Explosion" ID="{67E86E4A-8CAB-4E70-9233-63745AEA9CF3}" WorkUnitID="{2B6629CC-718A-4AA3-A5F1-5C07258D5EF5}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

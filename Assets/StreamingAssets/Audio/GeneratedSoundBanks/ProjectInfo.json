@@ -1,0 +1,57 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Block2_Module_5_(Craeting AI)_WwiseProject",
+   "GUID": "{7A29232B-B83A-44D6-9B8B-302E7CD07B0A}",
+   "Generator": "2024.1.2.8726"
+  },
+  "CacheRoot": "../../../../Block2_Module_5_(Craeting AI)_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Android",
+    "GUID": "{E7C500E1-1465-4938-9584-B9EC6AAEC11D}",
+    "BasePlatform": "Android",
+    "BasePlatformGUID": "{A2D401DE-B8B6-4FEB-8142-137C34D507CA}",
+    "Path": "../../../../Block2_Module_5_(Craeting AI)_WwiseProject/GeneratedSoundBanks/Android"
+   },
+   {
+    "Name": "Mac",
+    "GUID": "{9EFBAECD-D6C8-4144-8CB0-1D239A9E88FC}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../Block2_Module_5_(Craeting AI)_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{CA28E022-CC67-45F4-8979-9EBB9D602083}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../Block2_Module_5_(Craeting AI)_WwiseProject/GeneratedSoundBanks/Windows"
+   },
+   {
+    "Name": "XboxOne",
+    "GUID": "{E3371D9D-06BA-4E27-95AA-7A9237546790}",
+    "BasePlatform": "XboxOne",
+    "BasePlatformGUID": "{B131584B-9961-4BB5-9C58-A3E9ABFFBBF6}",
+    "Path": "../../../../Block2_Module_5_(Craeting AI)_WwiseProject/GeneratedSoundBanks/XboxOne"
+   },
+   {
+    "Name": "XboxSeriesX",
+    "GUID": "{8A608845-6278-4919-8398-50BCE1648BC0}",
+    "BasePlatform": "XboxSeriesX",
+    "BasePlatformGUID": "{26352FC0-7716-4F97-8DAF-3665EC2BB501}",
+    "Path": "../../../../Block2_Module_5_(Craeting AI)_WwiseProject/GeneratedSoundBanks/XboxSeriesX"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{BD098639-66FE-4401-A54F-CBA79B28496C}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{CC2A6061-9CBA-E1EF-A8CE-E949BBCC7D5C}"
+ }
+}

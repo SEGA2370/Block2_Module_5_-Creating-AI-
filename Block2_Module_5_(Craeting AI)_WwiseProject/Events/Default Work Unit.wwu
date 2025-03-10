@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B6629CC-718A-4AA3-A5F1-5C07258D5EF5}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2B6629CC-718A-4AA3-A5F1-5C07258D5EF5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Explosion" ID="{67E86E4A-8CAB-4E70-9233-63745AEA9CF3}">
+					<ChildrenList>
+						<Action Name="" ID="{5EBA0600-E27E-4C04-92F0-39B266D8BE43}" ShortID="282690526">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="512815__mostyxs__good-jetpack-sound-loop" ID="{99BA61C9-7865-45B3-B047-68FB7EF1921A}" WorkUnitID="{903BB463-3970-40C0-9BC5-B7046BA5AF67}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Potato" ID="{F4F99ACB-40A0-4B6E-ACA1-3446555DC28C}">
+					<ChildrenList>
+						<Action Name="" ID="{E06EAB0E-C669-4698-90CD-CF2F6DCC5F56}" ShortID="121167572">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Potato" ID="{85CBCD9E-E3A5-42B7-BA21-FBB53044F477}" WorkUnitID="{903BB463-3970-40C0-9BC5-B7046BA5AF67}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
